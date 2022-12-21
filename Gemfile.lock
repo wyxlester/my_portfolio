@@ -101,6 +101,8 @@ GEM
     dotenv-rails (2.8.1)
       dotenv (= 2.8.1)
       railties (>= 3.2)
+    email_validator (2.2.4)
+      activemodel
     erubi (1.11.0)
     execjs (2.8.1)
     ffi (1.15.5)
@@ -243,6 +245,7 @@ DEPENDENCIES
   capybara
   debug
   dotenv-rails
+  email_validator
   font-awesome-sass (~> 6.1)
   jbuilder
   jsbundling-rails
