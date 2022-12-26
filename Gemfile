@@ -78,3 +78,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+group :production do
+  # Upload photos to production
+  gem 'rails_12factor'
+end
