@@ -1,68 +1,7 @@
 <div class="container mb-5">
-
-  <div class="row align-items-center vh-100">
-    <div class="col-12 col-lg-6">
-      <h4>Hi, my name is </h4>
-      <h1>Lester Wee</h1>
-      <p>Curious and amazed with how technology solves problems, I took the leap of faith and left my civil servant job to pursue Web Development early 2022.</p>
-      <p>Completed Le Wagon Web Dev boot camp in Singapore, 5 Dec 22. Currently working on projects and doing Leetcode challenges to continue honing my new skills. Combined with management experiences, looking to pursue Full Stack Development or Product Management opportunities.</p>
-    </div>
-    <div class="col-12 col-lg-6">
-      <img src="assets/lester_photo" alt="Profile Picture" class="img-fluid img-thumbnail">
-    </div>
-  </div>
+  <%= render "intro" %>
   <hr>
-
-  <div class="row align-items-center mt-5 mb-5">
-    <div class="col-12 text-center mb-3">
-      <h1>TECH STACK</h1>
-    </div>
-    <div class="col-12 col-lg-4 text-center mb-3">
-      <h2>Frontend</h2>
-      <div class="">
-        <img src="assets/HTML5.png" alt="">
-        <img src="assets/CSS3.png" alt="">
-        <img src="assets/Javascript.png" alt="">
-        <img src="assets/SASS.png" alt="">
-        <br>
-        <img src="assets/Bootstrap.png" alt="">
-        <img src="assets/React.png" alt="">
-        <img src="assets/Redux.png" alt="">
-      </div>
-    </div>
-    <div class="col-12 col-lg-4 text-center mb-3">
-      <h2>Backend</h2>
-      <img src="assets/ruby.png" alt="">
-      <img src="assets/Rails.png" alt="">
-      <img src="assets/mysql.png" alt="">
-      <img src="assets/Heroku.png" alt="">
-    </div>
-    <div class="col-12 col-lg-4 text-center mb-3">
-      <h2>Others</h2>
-      <img src="assets/Figma.png" alt="">
-      <img src="assets/Sketch.png" alt="">
-      <img src="assets/Trello.png" alt="">
-    </div>
-    <div class="col-12 text-center">
-      <%= link_to "See Projects", "#", class: "btn btn-dark" %>
-    </div>
-  </div>
+  <%= render "tech_stack" %>
   <hr>
-
-  <div class="row align-items-center mt-5 mb-5">
-    <div class="col-12 d-flex flex-column justify-content-center">
-      <h1>EXPERIENCES</h1>
-      <div><h3>Naval Officer, Singapore Armed Forces</h3></div>
-      <div><h5>Jan 13 - Mar 22</h5></div>
-      <div class="d-flex flex-column">
-        <ul>
-          <li>blah</li>
-          <li>blah</li>
-          <li>blah</li>
-          <li>blah</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
+  <%= render "experiences" %>
 </div>
