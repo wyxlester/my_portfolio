@@ -4,3 +4,15 @@
 @import "form_legend_clear";
 @import "navbar";
 @import "divider";
+@import "skills";
+
+.section_intro{
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
